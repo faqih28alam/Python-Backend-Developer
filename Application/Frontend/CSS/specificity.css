@@ -1,0 +1,42 @@
+/*Setiap deklarasi css (selector) memiliki berat yang berbeda. Berat tersebut menentukan seberapa spesifik
+sebuah elemen dpat dipilih oleh selector.*/
+
+/*
+Yang terjadi adalah kedua paragraf akan berubah menjadi hijau
+p{
+    color: red;
+}
+
+p{
+    color: green;
+}
+*/
+
+/*
+Yang terjadi adalah paragraf akan berubah sesuai. karena #p1 lebih spesifik dari p*/
+#p1{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+/*
+Yang terjadi adalah semua akan berwarna hijau, karena bobot id lebih berat dibanding class, jadi id menang.
+ul#sarapan li{
+    color: green;
+}
+
+.favorit{
+    color: red;
+}
+*/
+
+ul#sarapan li{
+    color: green;
+}
+
+ul#sarapan li.favorit{
+    color: red;
+}

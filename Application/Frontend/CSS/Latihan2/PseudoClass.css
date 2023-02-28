@@ -1,0 +1,48 @@
+/*Memanggil kelas "hello"*/
+/*":link" Membuat kelas hello berubah style ketika kursor hyperlink diklik tahan*/
+.hello:link{
+    color: orange; /*hyperlink akan berubah menjadi oranye saat diklik tahan*/
+}
+
+/*":hover" Membuat kelas hello berubah style ketika kursor menyentuh hyperlink*/
+.hello:hover{
+    color: green;
+    font-size: 20px;
+}
+
+/*":active" Membuat kelas hello berubah style ketika hyperlink diklik*/
+.hello:active{
+    font-style: italic;
+}
+
+/*":visited" Membuat kelas hello berubah style ketika hyperlink telah diakses*/
+.hello:visited{
+    color: brown;
+}
+
+/*first n last child, seperti sistem rooting pada node*/
+/*
+li:first-child a{
+    color: green;
+}
+
+li:nth-child(2n+1) a:hover{
+    color: green;
+    font-size: 20px;
+}
+
+p:nth-of-type(2) {
+    color: red;
+    font-size: 20px;
+}
+*/
+
+li:nth-child(2n+1) a{
+    color: green;
+    font-size: 20px;
+}
+
+p:first-of-type {
+    color: red;
+    font-size: 20px;
+}

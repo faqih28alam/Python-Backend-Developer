@@ -1,0 +1,14 @@
+/* Kalau seperti ini tag a tidak akan berubah warna
+body{
+    font-family: arial;
+    color: darkgray;
+}
+*/
+
+/*Solusi*/
+body{
+    font-family: arial;
+    color: darkgray;
+}
+
+a{color: inherit;}

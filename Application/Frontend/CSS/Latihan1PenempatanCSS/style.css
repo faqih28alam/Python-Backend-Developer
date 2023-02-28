@@ -1,0 +1,18 @@
+h1 {
+    color:lightgreen;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+body{
+    background-color: darkblue;
+}
+
+p{
+    font-family:monospace;
+    font-size:x-large;
+    line-height: 1.5em;
+    text-align: justify;
+    background-color: black;
+    color: darkgreen;
+}
